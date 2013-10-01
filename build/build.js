@@ -1,11 +1,11 @@
 ({
     appDir: '../src',
     dir: '../www',
-    mainConfigFile: '../src/js/sample/config.js',
+    mainConfigFile: '../src/sample/config.js',
     baseUrl: '.',
     modules: [
         {
-            name: 'js/sample/app',
+            name: 'sample/app',
             exclude: [
                 'jquery'
             ]

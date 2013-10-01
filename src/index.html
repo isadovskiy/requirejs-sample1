@@ -3,14 +3,14 @@
 <html>
 <head>
     <title>RequireJS - Sample 1</title>
-    <script type="text/javascript" src="js/lib/require-2.1.8/require.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery-1.10.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/sample/config.js"></script>
+    <script type="text/javascript" src="lib/require-2.1.8/require.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sample/config.js"></script>
 </head>
 <body>
     <div id="sample1"></div>
     <script type="text/javascript">
-        requirejs(['js/sample/app'], function (app) {
+        requirejs(['sample/app'], function (app) {
             app('#sample1');
         });
     </script>
